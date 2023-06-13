@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./main.css" />
+        <title>Encriptador/Desencriptador</title>
+    </head>
+
+    <body>
+        <div class="contenedor-total">
+            <header class="contenedor-cabecera">
+                <img class="contenedor-cabecera__logo" src="./img/Logo.png" alt="logo de alura" />
+            </header>
+            <main class="contenedor-principal">
+                <div class="seccion-entrada">
+                    <div class="contenedor-entrada">
+                        <textarea
+                            class="contenedor-entrada__text-area"
+                            placeholder="Ingrese el texto aqui"
+                        ></textarea>
+                        <div class="contenedor-entrada__info">
+                            <img src="./img/Alerta.png" alt="Alerta" />
+                            <span>Solo letras minúsculas y sin acentos.</span>
+                        </div>
+                    </div>
+
+                    <div class="botones-entrada">
+                        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="btnDesencriptar()">
+                            Desencriptar
+                        </button>
+                    </div>
+                </div>
+                <div class="seccion-salida">
+                    <div class="contenedor-salida contenedor-salida_ocultar">
+                        <textarea class="contenedor-salida__text-area"></textarea>
+                        <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                    </div>
+
+                    <div class="mensaje-alerta-salida">
+                        <img
+                            class="mensaje-alerta-salida__imagen"
+                            src="./img/Muñeco.png"
+                            alt="Muñeco"
+                        />
+                        <span class="mensaje-alerta-salida__titulo"
+                            >Ningún mensaje fue encontrado</span
+                        >
+                        <span class="mensaje-alerta-salida__subtitulo"
+                            >Ingresa el texto que desees encriptar o descencriptar</span
+                        >
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
