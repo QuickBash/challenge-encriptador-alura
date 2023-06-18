@@ -59,7 +59,6 @@ body {
     color: #0a3871;
     font-size: 32px;
     min-height: 274px;
-    overflow: hidden;
     resize: none;
     text-transform: lowercase;
     width: 100%;
@@ -133,12 +132,11 @@ body {
     background-color: transparent;
     border: none;
     color: #0a3871;
-    height: auto;
     resize: none;
     font-size: 24px;
-    overflow: hidden;
     resize: none;
     text-transform: lowercase;
+    min-height: 58px;
     width: 100%;
 }
 

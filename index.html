@@ -18,6 +18,7 @@
                     <div class="contenedor-entrada">
                         <textarea
                             class="contenedor-entrada__text-area"
+                            id="textarea-entrada"
                             placeholder="Ingrese el texto aqui"
                         ></textarea>
                         <div class="contenedor-entrada__info">
@@ -27,19 +28,21 @@
                     </div>
 
                     <div class="botones-entrada">
-                        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
-                        <button class="btn-desencriptar" onclick="btnDesencriptar()">
-                            Desencriptar
-                        </button>
+                        <button class="btn-encriptar" id="btn-encriptar">Encriptar</button>
+                        <button class="btn-desencriptar" id="btn-desencriptar">Desencriptar</button>
                     </div>
                 </div>
                 <div class="seccion-salida">
-                    <div class="contenedor-salida contenedor-salida_ocultar">
-                        <textarea class="contenedor-salida__text-area"></textarea>
-                        <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                    <div class="contenedor-salida contenedor-salida_ocultar" id ="contenedor-salida">
+                        <textarea
+                            class="contenedor-salida__text-area"
+                            id="textarea-salida"
+                            readonly
+                        ></textarea>
+                        <button class="btn-copiar" id="btn-copiar">Copiar</button>
                     </div>
 
-                    <div class="mensaje-alerta-salida">
+                    <div class="mensaje-alerta-salida" id="mensaje-alerta-salida">
                         <img
                             class="mensaje-alerta-salida__imagen"
                             src="./img/Muñeco.png"
