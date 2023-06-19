@@ -20,8 +20,8 @@ En el proceso de desencriptación, se realiza el reemplazo inverso.
 
 - Encripta y desencripta texto utilizando una clave de sustitución.
 - Permite copiar el resultado de la encriptación o desencriptación al portapapeles.
-- Utiliza el modelo de diseño proporcionado por el programa usando Figma. Puedes acceder al diseño [aquí](#).
-- Implementa una solución propuesta por una de las instructoras del programa en un [repositorio de referencia](#).
+- Utiliza el modelo de diseño proporcionado por el programa usando Figma. Puedes acceder al diseño [aquí](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1).
+- Implementa una solución propuesta por una de las instructoras del programa en un [repositorio de referencia](https://github.com/logica-programacion/Solucion-Challenge-encriptador).
 
 ## Uso
 
